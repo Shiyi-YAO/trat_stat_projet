@@ -14,22 +14,17 @@ def nettoyer_texte_page(page_pdf):
     lignes = texte_brut.split('\n')
     lignes_propres = []
 
-    # Motif pour identifier les lignes à supprimer (tirets spéciaux et étiquettes de données)
-    # Inclut les tirets Unicode \u2013 (en dash), \u2014 (em dash), \u2212 (minus)
     motif_filtre = re.compile(r'^([-\u2013\u2014\u2212\u2022]|Participant|Langue|Age|Sexe|Niveau|Autres|Nombre|Séjours|Diplôme|Spécialité|Pays|Nationalité|Etudes|Usage|Nombres|F/H)', re.IGNORECASE)
 
     for ligne in lignes:
         segment = ligne.strip()
 
-        # Passer les lignes vides
         if not segment:
             continue
 
-        # Passer les lignes de métadonnées ou commençant par un tiret
         if motif_filtre.match(segment):
             continue
 
-        # Filtrer les lignes très courtes avec deux-points (souvent des résidus de formulaires)
         if len(segment) < 50 and ':' in segment:
             continue
 
@@ -38,7 +33,6 @@ def nettoyer_texte_page(page_pdf):
     return "\n".join(lignes_propres) if lignes_propres else None
 
 def executer_preparation():
-    # Chemins des fichiers PDF source
     liste_chemins_pdf = [
         "/home/menggeliu/Desktop/trat_stat_projet/ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants sinophones du FLE_contexte hétéroglotte/Productions des apprenants en Chine.pdf",
         "/home/menggeliu/Desktop/trat_stat_projet/ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants sinophones du FLE_contexte hétéroglotte/Apprenants sinophones de français en contexte hétéroglotte_2025.pdf",
@@ -46,13 +40,9 @@ def executer_preparation():
         "/home/menggeliu/Desktop/trat_stat_projet/ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants russophones du FLE/Apprenants_russophones_contexte hétéroglotte_Lettre formelle_2024.pdf"
     ]
 
-    # Dossiers de destination
     rep_apprentissage = "/home/menggeliu/Desktop/trat_stat_projet/data/corpus/train/apprenants/"
     rep_test = "/home/menggeliu/Desktop/trat_stat_projet/data/corpus/test/apprenants/"
 
-    # Création des dossiers si nécessaire
-    os.makedirs(rep_apprentissage, exist_ok=True)
-    os.makedirs(rep_test, exist_ok=True)
 
     compteur_total = 0
 
