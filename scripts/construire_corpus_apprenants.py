@@ -34,14 +34,14 @@ def nettoyer_texte_page(page_pdf):
 
 def executer_preparation():
     liste_chemins_pdf = [
-        "/home/menggeliu/Desktop/trat_stat_projet/ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants sinophones du FLE_contexte hétéroglotte/Productions des apprenants en Chine.pdf",
-        "/home/menggeliu/Desktop/trat_stat_projet/ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants sinophones du FLE_contexte hétéroglotte/Apprenants sinophones de français en contexte hétéroglotte_2025.pdf",
-        "/home/menggeliu/Desktop/trat_stat_projet/ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants russophones du FLE/Apprenants russophones du FLE.pdf",
-        "/home/menggeliu/Desktop/trat_stat_projet/ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants russophones du FLE/Apprenants_russophones_contexte hétéroglotte_Lettre formelle_2024.pdf"
+        "../ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants sinophones du FLE_contexte hétéroglotte/Productions des apprenants en Chine.pdf",
+        "../ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants sinophones du FLE_contexte hétéroglotte/Apprenants sinophones de français en contexte hétéroglotte_2025.pdf",
+        "../ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants russophones du FLE/Apprenants russophones du FLE.pdf",
+        "../ceaal2/10/Productions d'apprenants de FLE/Lettre officielle/Apprenants russophones du FLE/Apprenants_russophones_contexte hétéroglotte_Lettre formelle_2024.pdf"
     ]
 
-    rep_apprentissage = "/home/menggeliu/Desktop/trat_stat_projet/data/corpus/train/apprenants/"
-    rep_test = "/home/menggeliu/Desktop/trat_stat_projet/data/corpus/test/apprenants/"
+    rep_apprentissage = "../data/corpus/train/apprenants/"
+    rep_test = "../data/corpus/test/apprenants/"
 
 
     compteur_total = 0
