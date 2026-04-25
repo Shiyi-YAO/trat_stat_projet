@@ -1,0 +1,90 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     corpus
+Instances:    160
+Attributes:   17
+              adj
+              adp
+              adv
+              aux
+              cconj
+              det
+              intj
+              noun
+              num
+              pron
+              propn
+              punct
+              sconj
+              sym
+              verb
+              x
+              xClasse
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: apprenants, natifs
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.671  * (normalized) adj
+ +       2.9655 * (normalized) adp
+ +       2.3251 * (normalized) adv
+ +       0.9489 * (normalized) aux
+ +       0.14   * (normalized) cconj
+ +      -3.6367 * (normalized) det
+ +       0.3695 * (normalized) intj
+ +      -1.3751 * (normalized) noun
+ +       0.6812 * (normalized) num
+ +       0.4986 * (normalized) pron
+ +       1.7999 * (normalized) propn
+ +      -0.3604 * (normalized) punct
+ +      -0.1834 * (normalized) sconj
+ +      -0.6802 * (normalized) sym
+ +       0.9152 * (normalized) verb
+ +       0.7241 * (normalized) x
+ -       0.7434
+
+Number of kernel evaluations: 2977 (76.069% cached)
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          24               60      %
+Incorrectly Classified Instances        16               40      %
+Kappa statistic                          0.2   
+Mean absolute error                      0.4   
+Root mean squared error                  0.6325
+Relative absolute error                 80      %
+Root relative squared error            126.4911 %
+Total Number of Instances               40     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.700    0.500    0.583      0.700    0.636      0.204    0.600     0.558     apprenants
+                 0.500    0.300    0.625      0.500    0.556      0.204    0.600     0.563     natifs
+Weighted Avg.    0.600    0.400    0.604      0.600    0.596      0.204    0.600     0.560     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 14  6 |  a = apprenants
+ 10 10 |  b = natifs
+

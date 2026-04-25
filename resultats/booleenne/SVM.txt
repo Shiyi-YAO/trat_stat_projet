@@ -1,0 +1,81 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     corpus
+Instances:    160
+Attributes:   17
+              adj
+              adp
+              adv
+              aux
+              cconj
+              det
+              intj
+              noun
+              num
+              pron
+              propn
+              punct
+              sconj
+              sym
+              verb
+              x
+              xClasse
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: apprenants, natifs
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0      * (normalized) cconj
+ +       1.999  * (normalized) num
+ +      -0.0008 * (normalized) propn
+ +      -0.0004 * (normalized) punct
+ +      -0.0004 * (normalized) sconj
+ +      -0.0021 * (normalized) sym
+ +       0.001  * (normalized) x
+ -       0.9987
+
+Number of kernel evaluations: 2681 (79.312% cached)
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          20               50      %
+Incorrectly Classified Instances        20               50      %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.7071
+Relative absolute error                100      %
+Root relative squared error            141.4214 %
+Total Number of Instances               40     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.600    0.600    0.500      0.600    0.545      0.000    0.500     0.500     apprenants
+                 0.400    0.400    0.500      0.400    0.444      0.000    0.500     0.500     natifs
+Weighted Avg.    0.500    0.500    0.500      0.500    0.495      0.000    0.500     0.500     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 12  8 |  a = apprenants
+ 12  8 |  b = natifs
+

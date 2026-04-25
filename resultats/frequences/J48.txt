@@ -1,0 +1,82 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     corpus
+Instances:    160
+Attributes:   17
+              adj
+              adp
+              adv
+              aux
+              cconj
+              det
+              intj
+              noun
+              num
+              pron
+              propn
+              punct
+              sconj
+              sym
+              verb
+              x
+              xClasse
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+det <= 0.15566
+|   det <= 0.132231: natifs (36.0/1.0)
+|   det > 0.132231
+|   |   noun <= 0.269795
+|   |   |   adp <= 0.121457
+|   |   |   |   adj <= 0.085308: natifs (3.0/1.0)
+|   |   |   |   adj > 0.085308: apprenants (5.0)
+|   |   |   adp > 0.121457
+|   |   |   |   cconj <= 0.010345: apprenants (2.0)
+|   |   |   |   cconj > 0.010345: natifs (37.0/5.0)
+|   |   noun > 0.269795: apprenants (5.0)
+det > 0.15566
+|   x <= 0: apprenants (62.0/6.0)
+|   x > 0
+|   |   adj <= 0.073077: natifs (4.0)
+|   |   adj > 0.073077: apprenants (6.0/1.0)
+
+Number of Leaves  : 	9
+
+Size of the tree : 	17
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          30               75      %
+Incorrectly Classified Instances        10               25      %
+Kappa statistic                          0.5   
+Mean absolute error                      0.2961
+Root mean squared error                  0.451 
+Relative absolute error                 59.2279 %
+Root relative squared error             90.199  %
+Total Number of Instances               40     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.800    0.300    0.727      0.800    0.762      0.503    0.783     0.723     apprenants
+                 0.700    0.200    0.778      0.700    0.737      0.503    0.783     0.745     natifs
+Weighted Avg.    0.750    0.250    0.753      0.750    0.749      0.503    0.783     0.734     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 16  4 |  a = apprenants
+  6 14 |  b = natifs
+

@@ -1,0 +1,161 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     corpus
+Instances:    160
+Attributes:   17
+              adj
+              adp
+              adv
+              aux
+              cconj
+              det
+              intj
+              noun
+              num
+              pron
+              propn
+              punct
+              sconj
+              sym
+              verb
+              x
+              xClasse
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                    Class
+Attribute      apprenants     natifs
+                    (0.5)      (0.5)
+=====================================
+adj
+  mean                   1          1
+  std. dev.         0.0017     0.0017
+  weight sum            80         80
+  precision           0.01       0.01
+
+adp
+  mean                   1          1
+  std. dev.         0.0017     0.0017
+  weight sum            80         80
+  precision           0.01       0.01
+
+adv
+  mean                   1          1
+  std. dev.         0.0017     0.0017
+  weight sum            80         80
+  precision           0.01       0.01
+
+aux
+  mean                   1          1
+  std. dev.         0.0017     0.0017
+  weight sum            80         80
+  precision           0.01       0.01
+
+cconj
+  mean              0.9875     0.9875
+  std. dev.         0.1667     0.1667
+  weight sum            80         80
+  precision              1          1
+
+det
+  mean                   1          1
+  std. dev.         0.0017     0.0017
+  weight sum            80         80
+  precision           0.01       0.01
+
+intj
+  mean                   0     0.0125
+  std. dev.         0.1667     0.1667
+  weight sum            80         80
+  precision              1          1
+
+noun
+  mean                   1          1
+  std. dev.         0.0017     0.0017
+  weight sum            80         80
+  precision           0.01       0.01
+
+num
+  mean              0.2625     0.5125
+  std. dev.           0.44     0.4998
+  weight sum            80         80
+  precision              1          1
+
+pron
+  mean                   1          1
+  std. dev.         0.0017     0.0017
+  weight sum            80         80
+  precision           0.01       0.01
+
+propn
+  mean              0.9625     0.9625
+  std. dev.           0.19       0.19
+  weight sum            80         80
+  precision              1          1
+
+punct
+  mean               0.025          0
+  std. dev.         0.1667     0.1667
+  weight sum            80         80
+  precision              1          1
+
+sconj
+  mean              0.9625       0.95
+  std. dev.           0.19     0.2179
+  weight sum            80         80
+  precision              1          1
+
+sym
+  mean              0.0125          0
+  std. dev.         0.1667     0.1667
+  weight sum            80         80
+  precision              1          1
+
+verb
+  mean                   1          1
+  std. dev.         0.0017     0.0017
+  weight sum            80         80
+  precision           0.01       0.01
+
+x
+  mean                0.15       0.25
+  std. dev.         0.3571      0.433
+  weight sum            80         80
+  precision              1          1
+
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          22               55      %
+Incorrectly Classified Instances        18               45      %
+Kappa statistic                          0.1   
+Mean absolute error                      0.4926
+Root mean squared error                  0.5109
+Relative absolute error                 98.5273 %
+Root relative squared error            102.1887 %
+Total Number of Instances               40     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.550    0.450    0.550      0.550    0.550      0.100    0.531     0.546     apprenants
+                 0.550    0.450    0.550      0.550    0.550      0.100    0.531     0.503     natifs
+Weighted Avg.    0.550    0.450    0.550      0.550    0.550      0.100    0.531     0.525     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 11  9 |  a = apprenants
+  9 11 |  b = natifs
+

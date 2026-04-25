@@ -1,0 +1,98 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     corpus
+Instances:    160
+Attributes:   17
+              adj
+              adp
+              adv
+              aux
+              cconj
+              det
+              intj
+              noun
+              num
+              pron
+              propn
+              punct
+              sconj
+              sym
+              verb
+              x
+              xClasse
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+adp <= 31
+|   det <= 23: natifs (8.0/1.0)
+|   det > 23
+|   |   cconj <= 12
+|   |   |   x <= 0: apprenants (46.0/1.0)
+|   |   |   x > 0
+|   |   |   |   sconj <= 1: natifs (2.0)
+|   |   |   |   sconj > 1: apprenants (7.0/1.0)
+|   |   cconj > 12: natifs (4.0/1.0)
+adp > 31
+|   noun <= 55: natifs (28.0)
+|   noun > 55
+|   |   propn <= 4
+|   |   |   adv <= 18
+|   |   |   |   adj <= 17
+|   |   |   |   |   num <= 0: apprenants (3.0)
+|   |   |   |   |   num > 0: natifs (3.0)
+|   |   |   |   adj > 17: apprenants (11.0)
+|   |   |   adv > 18
+|   |   |   |   det <= 40: natifs (6.0)
+|   |   |   |   det > 40
+|   |   |   |   |   adj <= 23: apprenants (5.0)
+|   |   |   |   |   adj > 23: natifs (6.0/1.0)
+|   |   propn > 4
+|   |   |   propn <= 8
+|   |   |   |   det <= 45: natifs (18.0)
+|   |   |   |   det > 45
+|   |   |   |   |   x <= 0: apprenants (2.0)
+|   |   |   |   |   x > 0
+|   |   |   |   |   |   pron <= 24: apprenants (2.0)
+|   |   |   |   |   |   pron > 24: natifs (5.0)
+|   |   |   propn > 8: apprenants (4.0/1.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	33
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          25               62.5    %
+Incorrectly Classified Instances        15               37.5    %
+Kappa statistic                          0.25  
+Mean absolute error                      0.394 
+Root mean squared error                  0.6023
+Relative absolute error                 78.7966 %
+Root relative squared error            120.4526 %
+Total Number of Instances               40     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.700    0.450    0.609      0.700    0.651      0.253    0.551     0.536     apprenants
+                 0.550    0.300    0.647      0.550    0.595      0.253    0.551     0.562     natifs
+Weighted Avg.    0.625    0.375    0.628      0.625    0.623      0.253    0.551     0.549     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 14  6 |  a = apprenants
+  9 11 |  b = natifs
+
