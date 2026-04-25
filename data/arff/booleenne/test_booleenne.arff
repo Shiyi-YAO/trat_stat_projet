@@ -1,0 +1,59 @@
+@relation corpus
+@attribute 'adj' numeric
+@attribute 'adp' numeric
+@attribute 'adv' numeric
+@attribute 'aux' numeric
+@attribute 'cconj' numeric
+@attribute 'det' numeric
+@attribute 'intj' numeric
+@attribute 'noun' numeric
+@attribute 'num' numeric
+@attribute 'pron' numeric
+@attribute 'propn' numeric
+@attribute 'punct' numeric
+@attribute 'sconj' numeric
+@attribute 'sym' numeric
+@attribute 'verb' numeric
+@attribute 'x' numeric
+@attribute 'xClasse' {apprenants,natifs}
+@data
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,apprenants
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,apprenants
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,1,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,apprenants
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,1,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,1,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,1,natifs
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,natifs
+1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,natifs
+1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,0,natifs
