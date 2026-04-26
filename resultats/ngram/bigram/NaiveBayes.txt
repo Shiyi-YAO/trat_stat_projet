@@ -1,0 +1,1178 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes
+Relation:     corpus_total_ngram-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.NGramTokenizer -max 2 -min 2 -delimiters " \r\n\t.,;:\'\"()?!"
+Instances:    200
+Attributes:   189
+              [list of attributes omitted]
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                    Class
+Attribute      apprenants     natifs
+                    (0.5)      (0.5)
+=====================================
+ADJ ADJ
+  mean                0.69       0.81
+  std. dev.         0.9969     0.9969
+  weight sum           100        100
+  precision              1          1
+
+ADJ ADP
+  mean              3.3727     2.9782
+  std. dev.         2.2218     1.7929
+  weight sum           100        100
+  precision         1.2727     1.2727
+
+ADJ ADV
+  mean                0.45       0.67
+  std. dev.         0.6538     0.7491
+  weight sum           100        100
+  precision              1          1
+
+ADJ AUX
+  mean                1.19       1.36
+  std. dev.         1.2058     1.4319
+  weight sum           100        100
+  precision              1          1
+
+ADJ CCONJ
+  mean                1.09       1.41
+  std. dev.         1.1233     1.2417
+  weight sum           100        100
+  precision              1          1
+
+ADJ DET
+  mean                1.24       0.99
+  std. dev.         1.1586     1.1269
+  weight sum           100        100
+  precision              1          1
+
+ADJ NOUN
+  mean              4.1009     5.0936
+  std. dev.         1.9878     2.2591
+  weight sum           100        100
+  precision         1.1818     1.1818
+
+ADJ PRON
+  mean                0.45        0.5
+  std. dev.         0.7124      0.728
+  weight sum           100        100
+  precision              1          1
+
+ADJ PROPN
+  mean                0.05       0.12
+  std. dev.         0.2179     0.3544
+  weight sum           100        100
+  precision              1          1
+
+ADJ PUNCT
+  mean                6.08       4.45
+  std. dev.         2.7845     2.3211
+  weight sum           100        100
+  precision              1          1
+
+ADJ SCONJ
+  mean                0.46       0.48
+  std. dev.         0.7405     0.6705
+  weight sum           100        100
+  precision              1          1
+
+ADJ VERB
+  mean                0.75       0.79
+  std. dev.          0.817     0.8637
+  weight sum           100        100
+  precision              1          1
+
+ADP ADJ
+  mean                1.36        1.3
+  std. dev.         1.3154     1.1533
+  weight sum           100        100
+  precision              1          1
+
+ADP ADP
+  mean                0.12      0.408
+  std. dev.           0.36     0.9329
+  weight sum           100        100
+  precision            1.2        1.2
+
+ADP ADV
+  mean                1.69       2.26
+  std. dev.          1.447     1.6225
+  weight sum           100        100
+  precision              1          1
+
+ADP AUX
+  mean                0.16       0.29
+  std. dev.          0.463     0.6371
+  weight sum           100        100
+  precision              1          1
+
+ADP CCONJ
+  mean                0.04       0.22
+  std. dev.          0.196     0.4377
+  weight sum           100        100
+  precision              1          1
+
+ADP DET
+  mean             11.7704    12.5739
+  std. dev.         4.3429     4.8076
+  weight sum           100        100
+  precision         1.0435     1.0435
+
+ADP NOUN
+  mean              9.6656      12.32
+  std. dev.         4.4113     4.1121
+  weight sum           100        100
+  precision           1.12       1.12
+
+ADP NUM
+  mean                0.23       0.37
+  std. dev.         0.7191     0.7163
+  weight sum           100        100
+  precision              1          1
+
+ADP PRON
+  mean                1.52       2.99
+  std. dev.          1.473     1.9874
+  weight sum           100        100
+  precision              1          1
+
+ADP PROPN
+  mean               0.385       0.77
+  std. dev.           1.07     1.0721
+  weight sum           100        100
+  precision         1.1667     1.1667
+
+ADP PUNCT
+  mean                0.05       0.27
+  std. dev.         0.2179     0.4869
+  weight sum           100        100
+  precision              1          1
+
+ADP SCONJ
+  mean                0.04       0.13
+  std. dev.          0.196     0.3363
+  weight sum           100        100
+  precision              1          1
+
+ADP VERB
+  mean                4.15       5.04
+  std. dev.         2.5313      2.731
+  weight sum           100        100
+  precision              1          1
+
+ADV ADJ
+  mean                1.77       2.44
+  std. dev.         1.6239     1.8564
+  weight sum           100        100
+  precision              1          1
+
+ADV ADP
+  mean                2.43       3.36
+  std. dev.         1.6016     2.0953
+  weight sum           100        100
+  precision              1          1
+
+ADV ADV
+  mean              2.2556     2.9222
+  std. dev.         1.7246     1.8768
+  weight sum           100        100
+  precision         1.1111     1.1111
+
+ADV AUX
+  mean                0.27       0.69
+  std. dev.         0.5806     0.8449
+  weight sum           100        100
+  precision              1          1
+
+ADV CCONJ
+  mean                0.09       0.21
+  std. dev.         0.3192     0.5531
+  weight sum           100        100
+  precision              1          1
+
+ADV DET
+  mean                2.08        2.2
+  std. dev.         1.6105     1.6125
+  weight sum           100        100
+  precision              1          1
+
+ADV NOUN
+  mean                0.88       1.15
+  std. dev.         0.9411     1.1079
+  weight sum           100        100
+  precision              1          1
+
+ADV NUM
+  mean                0.06       0.11
+  std. dev.         0.2764     0.3129
+  weight sum           100        100
+  precision              1          1
+
+ADV PRON
+  mean                0.54       0.78
+  std. dev.         0.7405     0.9336
+  weight sum           100        100
+  precision              1          1
+
+ADV PROPN
+  mean                0.04       0.14
+  std. dev.          0.196     0.4477
+  weight sum           100        100
+  precision              1          1
+
+ADV PUNCT
+  mean               3.366      2.937
+  std. dev.         1.8914     1.7535
+  weight sum           100        100
+  precision            1.1        1.1
+
+ADV SCONJ
+  mean              0.6125          1
+  std. dev.         0.8196     1.0753
+  weight sum           100        100
+  precision           1.25       1.25
+
+ADV VERB
+  mean                2.43       3.79
+  std. dev.         1.9301     2.0799
+  weight sum           100        100
+  precision              1          1
+
+ADV X
+  mean                0.02       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+AUX ADJ
+  mean                0.92       1.06
+  std. dev.         1.0741     1.2233
+  weight sum           100        100
+  precision              1          1
+
+AUX ADP
+  mean                0.25       0.51
+  std. dev.          0.477     0.6999
+  weight sum           100        100
+  precision              1          1
+
+AUX ADV
+  mean              1.8337     2.7338
+  std. dev.           1.42     1.9437
+  weight sum           100        100
+  precision          1.125      1.125
+
+AUX AUX
+  mean                0.24       0.24
+  std. dev.         0.5314     0.6499
+  weight sum           100        100
+  precision              1          1
+
+AUX CCONJ
+  mean                0.05       0.05
+  std. dev.         0.2179     0.2179
+  weight sum           100        100
+  precision              1          1
+
+AUX DET
+  mean                1.69       1.58
+  std. dev.         1.4879     1.2343
+  weight sum           100        100
+  precision              1          1
+
+AUX NOUN
+  mean                0.17       0.14
+  std. dev.         0.3756     0.3747
+  weight sum           100        100
+  precision              1          1
+
+AUX PRON
+  mean                 0.1       0.25
+  std. dev.         0.3317     0.4975
+  weight sum           100        100
+  precision              1          1
+
+AUX PROPN
+  mean                0.01       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+AUX PUNCT
+  mean                0.08       0.21
+  std. dev.         0.2713     0.4959
+  weight sum           100        100
+  precision              1          1
+
+AUX SCONJ
+  mean                0.03       0.08
+  std. dev.         0.1706     0.2713
+  weight sum           100        100
+  precision              1          1
+
+AUX VERB
+  mean                2.67       3.46
+  std. dev.         2.0448     2.3299
+  weight sum           100        100
+  precision              1          1
+
+CCONJ ADJ
+  mean                0.83       0.77
+  std. dev.         0.9701     0.9149
+  weight sum           100        100
+  precision              1          1
+
+CCONJ ADP
+  mean               1.125      1.605
+  std. dev.         1.3141     1.2773
+  weight sum           100        100
+  precision            1.5        1.5
+
+CCONJ ADV
+  mean                0.96       1.42
+  std. dev.         0.9265     1.2975
+  weight sum           100        100
+  precision              1          1
+
+CCONJ AUX
+  mean                0.06       0.16
+  std. dev.         0.2375     0.4176
+  weight sum           100        100
+  precision              1          1
+
+CCONJ CCONJ
+  mean                0.03       0.02
+  std. dev.         0.1706     0.1667
+  weight sum           100        100
+  precision              1          1
+
+CCONJ DET
+  mean                1.72       1.25
+  std. dev.          1.588     1.2913
+  weight sum           100        100
+  precision              1          1
+
+CCONJ NOUN
+  mean                0.41        0.6
+  std. dev.         0.6796     0.7211
+  weight sum           100        100
+  precision              1          1
+
+CCONJ PRON
+  mean                0.92       1.14
+  std. dev.         0.9968     1.4144
+  weight sum           100        100
+  precision              1          1
+
+CCONJ PROPN
+  mean                0.07       0.05
+  std. dev.         0.2551     0.2179
+  weight sum           100        100
+  precision              1          1
+
+CCONJ PUNCT
+  mean                0.13       0.07
+  std. dev.         0.3648     0.2551
+  weight sum           100        100
+  precision              1          1
+
+CCONJ SCONJ
+  mean                0.05       0.18
+  std. dev.         0.2179     0.4556
+  weight sum           100        100
+  precision              1          1
+
+CCONJ SYM
+  mean                0.01       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+CCONJ VERB
+  mean                0.84       0.86
+  std. dev.         0.9243     0.9489
+  weight sum           100        100
+  precision              1          1
+
+CCONJ X
+  mean                0.01          0
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+DET ADJ
+  mean                3.03       4.01
+  std. dev.         1.9414     2.1047
+  weight sum           100        100
+  precision              1          1
+
+DET ADP
+  mean                0.07       0.15
+  std. dev.         0.2551     0.3841
+  weight sum           100        100
+  precision              1          1
+
+DET ADV
+  mean                0.33       0.56
+  std. dev.         0.5302     0.8754
+  weight sum           100        100
+  precision              1          1
+
+DET AUX
+  mean                0.03       0.03
+  std. dev.         0.1706     0.1706
+  weight sum           100        100
+  precision              1          1
+
+DET CCONJ
+  mean                0.03      0.075
+  std. dev.           0.25     0.3897
+  weight sum           100        100
+  precision            1.5        1.5
+
+DET DET
+  mean                0.07       0.11
+  std. dev.         0.2551     0.4218
+  weight sum           100        100
+  precision              1          1
+
+DET NOUN
+  mean              35.343    30.4215
+  std. dev.         7.3599    10.5325
+  weight sum           100        100
+  precision          1.275      1.275
+
+DET NUM
+  mean                0.12       0.04
+  std. dev.         0.3544     0.3137
+  weight sum           100        100
+  precision              1          1
+
+DET PRON
+  mean                0.04       0.09
+  std. dev.         0.2417     0.2862
+  weight sum           100        100
+  precision              1          1
+
+DET PROPN
+  mean                0.24       0.33
+  std. dev.          0.602     0.5667
+  weight sum           100        100
+  precision              1          1
+
+DET PUNCT
+  mean                0.03       0.03
+  std. dev.         0.2216     0.1706
+  weight sum           100        100
+  precision              1          1
+
+DET VERB
+  mean                0.23       0.22
+  std. dev.         0.4869     0.4812
+  weight sum           100        100
+  precision              1          1
+
+NOUN ADJ
+  mean              8.4267     6.3867
+  std. dev.         3.6558     3.2016
+  weight sum           100        100
+  precision         1.3333     1.3333
+
+NOUN ADP
+  mean             13.5622     15.363
+  std. dev.         5.4188     5.5407
+  weight sum           100        100
+  precision         1.2593     1.2593
+
+NOUN ADV
+  mean                1.96       2.65
+  std. dev.         1.4207     1.7514
+  weight sum           100        100
+  precision              1          1
+
+NOUN AUX
+  mean                2.83        2.5
+  std. dev.         1.7723     1.8248
+  weight sum           100        100
+  precision              1          1
+
+NOUN CCONJ
+  mean               3.542      3.531
+  std. dev.         2.1192     2.2289
+  weight sum           100        100
+  precision            1.1        1.1
+
+NOUN DET
+  mean                1.92       1.83
+  std. dev.         1.3393     1.6556
+  weight sum           100        100
+  precision              1          1
+
+NOUN NOUN
+  mean               4.225     3.7592
+  std. dev.         2.5244     2.3954
+  weight sum           100        100
+  precision         1.0833     1.0833
+
+NOUN NUM
+  mean                0.07       0.09
+  std. dev.         0.2551     0.3491
+  weight sum           100        100
+  precision              1          1
+
+NOUN PRON
+  mean                1.82      3.122
+  std. dev.         1.6624     2.2735
+  weight sum           100        100
+  precision            1.4        1.4
+
+NOUN PROPN
+  mean                0.59       1.03
+  std. dev.         0.8258     1.2038
+  weight sum           100        100
+  precision              1          1
+
+NOUN PUNCT
+  mean             15.8523    14.1938
+  std. dev.         4.7435     5.4134
+  weight sum           100        100
+  precision         1.0769     1.0769
+
+NOUN SCONJ
+  mean                0.36       0.64
+  std. dev.         0.7003     0.8546
+  weight sum           100        100
+  precision              1          1
+
+NOUN VERB
+  mean                4.98       4.79
+  std. dev.         2.3706     2.3379
+  weight sum           100        100
+  precision              1          1
+
+NOUN X
+  mean                0.05        0.1
+  std. dev.         0.2598        0.3
+  weight sum           100        100
+  precision              1          1
+
+NUM ADJ
+  mean                0.02       0.07
+  std. dev.         0.1667     0.2551
+  weight sum           100        100
+  precision              1          1
+
+NUM ADP
+  mean                0.01       0.03
+  std. dev.         0.1667     0.1706
+  weight sum           100        100
+  precision              1          1
+
+NUM CCONJ
+  mean                0.01          0
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+NUM NOUN
+  mean                0.35       0.56
+  std. dev.         0.7399     0.8285
+  weight sum           100        100
+  precision              1          1
+
+NUM NUM
+  mean                0.01       0.03
+  std. dev.         0.1667     0.2216
+  weight sum           100        100
+  precision              1          1
+
+NUM PROPN
+  mean                0.03       0.01
+  std. dev.         0.1706     0.1667
+  weight sum           100        100
+  precision              1          1
+
+NUM PUNCT
+  mean                0.08       0.06
+  std. dev.         0.3919       0.42
+  weight sum           100        100
+  precision              1          1
+
+NUM VERB
+  mean                0.02       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+NUM X
+  mean                0.01          0
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+PRON ADJ
+  mean                0.35       0.35
+  std. dev.         0.5545     0.5545
+  weight sum           100        100
+  precision              1          1
+
+PRON ADP
+  mean                0.31       0.62
+  std. dev.         0.6587     0.7318
+  weight sum           100        100
+  precision              1          1
+
+PRON ADV
+  mean               0.686      0.868
+  std. dev.         0.8041     1.0435
+  weight sum           100        100
+  precision            1.4        1.4
+
+PRON AUX
+  mean               2.304      2.892
+  std. dev.         1.7363     2.0929
+  weight sum           100        100
+  precision            1.2        1.2
+
+PRON CCONJ
+  mean                0.02       0.13
+  std. dev.         0.1667     0.3648
+  weight sum           100        100
+  precision              1          1
+
+PRON DET
+  mean                0.22       0.26
+  std. dev.         0.4812     0.5589
+  weight sum           100        100
+  precision              1          1
+
+PRON NOUN
+  mean                0.56       0.73
+  std. dev.         0.8523     0.8468
+  weight sum           100        100
+  precision              1          1
+
+PRON PRON
+  mean              3.0873     4.1345
+  std. dev.              2     2.4891
+  weight sum           100        100
+  precision         1.0909     1.0909
+
+PRON PROPN
+  mean                0.03       0.06
+  std. dev.         0.1706     0.2764
+  weight sum           100        100
+  precision              1          1
+
+PRON PUNCT
+  mean                0.53       0.83
+  std. dev.         0.7274     1.0105
+  weight sum           100        100
+  precision              1          1
+
+PRON SCONJ
+  mean                0.02       0.07
+  std. dev.         0.1667     0.2917
+  weight sum           100        100
+  precision              1          1
+
+PRON VERB
+  mean                9.73      10.61
+  std. dev.         3.8881     3.9822
+  weight sum           100        100
+  precision              1          1
+
+PRON X
+  mean                0.01          0
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+PROPN ADJ
+  mean                0.15       0.19
+  std. dev.          0.433     0.4625
+  weight sum           100        100
+  precision              1          1
+
+PROPN ADP
+  mean                0.12       0.31
+  std. dev.         0.4069     0.6276
+  weight sum           100        100
+  precision              1          1
+
+PROPN ADV
+  mean                0.05       0.07
+  std. dev.         0.2179     0.2551
+  weight sum           100        100
+  precision              1          1
+
+PROPN AUX
+  mean                0.31       0.75
+  std. dev.         0.5234     0.8529
+  weight sum           100        100
+  precision              1          1
+
+PROPN CCONJ
+  mean               0.165      0.195
+  std. dev.         0.4693     0.5472
+  weight sum           100        100
+  precision            1.5        1.5
+
+PROPN DET
+  mean                0.04        0.1
+  std. dev.          0.196     0.3317
+  weight sum           100        100
+  precision              1          1
+
+PROPN NOUN
+  mean                0.32       0.52
+  std. dev.         0.5636     0.8304
+  weight sum           100        100
+  precision              1          1
+
+PROPN NUM
+  mean                0.03          0
+  std. dev.         0.1706     0.1667
+  weight sum           100        100
+  precision              1          1
+
+PROPN PRON
+  mean                0.13        0.2
+  std. dev.         0.3648     0.5292
+  weight sum           100        100
+  precision              1          1
+
+PROPN PROPN
+  mean                0.32     0.1067
+  std. dev.         0.8458     0.4079
+  weight sum           100        100
+  precision         1.3333     1.3333
+
+PROPN PUNCT
+  mean                0.94       0.74
+  std. dev.         1.2395     1.1011
+  weight sum           100        100
+  precision              1          1
+
+PROPN SCONJ
+  mean                0.01       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+PROPN VERB
+  mean                0.23       0.34
+  std. dev.         0.5071     0.5696
+  weight sum           100        100
+  precision              1          1
+
+PROPN X
+  mean                0.01       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+PUNCT ADJ
+  mean                 1.2       1.11
+  std. dev.         1.1402     1.0761
+  weight sum           100        100
+  precision              1          1
+
+PUNCT ADP
+  mean                4.15       4.88
+  std. dev.         2.4995     2.4669
+  weight sum           100        100
+  precision              1          1
+
+PUNCT ADV
+  mean                3.06       2.66
+  std. dev.         1.8211     1.8613
+  weight sum           100        100
+  precision              1          1
+
+PUNCT AUX
+  mean                0.16       0.17
+  std. dev.         0.4176     0.4256
+  weight sum           100        100
+  precision              1          1
+
+PUNCT CCONJ
+  mean              1.8629     1.5543
+  std. dev.         1.6613     1.4138
+  weight sum           100        100
+  precision         1.1429     1.1429
+
+PUNCT DET
+  mean              6.5175     5.2112
+  std. dev.         3.2978     3.0703
+  weight sum           100        100
+  precision          1.375      1.375
+
+PUNCT NOUN
+  mean                 2.3       2.22
+  std. dev.         1.6941     1.5721
+  weight sum           100        100
+  precision              1          1
+
+PUNCT NUM
+  mean                0.07       0.04
+  std. dev.         0.2917      0.196
+  weight sum           100        100
+  precision              1          1
+
+PUNCT PRON
+  mean                7.05       5.85
+  std. dev.         2.7155     2.3737
+  weight sum           100        100
+  precision         1.0714     1.0714
+
+PUNCT PROPN
+  mean                0.77       0.83
+  std. dev.         0.8928     0.9061
+  weight sum           100        100
+  precision              1          1
+
+PUNCT PUNCT
+  mean                0.12       0.28
+  std. dev.         0.4956     0.6493
+  weight sum           100        100
+  precision              1          1
+
+PUNCT SCONJ
+  mean                0.63        0.5
+  std. dev.         0.9017      0.728
+  weight sum           100        100
+  precision              1          1
+
+PUNCT VERB
+  mean                1.21       1.47
+  std. dev.         1.3438     1.2997
+  weight sum           100        100
+  precision              1          1
+
+PUNCT X
+  mean                0.02       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+SCONJ ADJ
+  mean                0.18       0.32
+  std. dev.         0.4094     0.6615
+  weight sum           100        100
+  precision              1          1
+
+SCONJ ADP
+  mean                0.08       0.28
+  std. dev.          0.337     0.4915
+  weight sum           100        100
+  precision              1          1
+
+SCONJ ADV
+  mean                0.05       0.14
+  std. dev.         0.2179     0.4005
+  weight sum           100        100
+  precision              1          1
+
+SCONJ DET
+  mean                1.66       1.42
+  std. dev.         1.4644     1.2742
+  weight sum           100        100
+  precision              1          1
+
+SCONJ NOUN
+  mean                0.21       0.47
+  std. dev.         0.4312     0.7274
+  weight sum           100        100
+  precision              1          1
+
+SCONJ PRON
+  mean                1.42       1.36
+  std. dev.         1.3052     1.3749
+  weight sum           100        100
+  precision              1          1
+
+SCONJ SCONJ
+  mean              0.2533       0.04
+  std. dev.         0.7228     0.2274
+  weight sum           100        100
+  precision         1.3333     1.3333
+
+SCONJ VERB
+  mean                0.08       0.13
+  std. dev.         0.2713     0.3648
+  weight sum           100        100
+  precision              1          1
+
+SYM PRON
+  mean                0.01          0
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+VERB ADJ
+  mean                0.76       0.83
+  std. dev.         0.9069     1.0868
+  weight sum           100        100
+  precision              1          1
+
+VERB ADP
+  mean                 5.7     8.2929
+  std. dev.         2.7171     3.2206
+  weight sum           100        100
+  precision         1.1176     1.1176
+
+VERB ADV
+  mean                3.38       4.73
+  std. dev.         1.8589     2.1347
+  weight sum           100        100
+  precision              1          1
+
+VERB AUX
+  mean                 0.3       0.97
+  std. dev.         0.6403     1.1615
+  weight sum           100        100
+  precision              1          1
+
+VERB CCONJ
+  mean               0.602       1.05
+  std. dev.         0.7733     1.1438
+  weight sum           100        100
+  precision            1.4        1.4
+
+VERB DET
+  mean             10.7212       8.37
+  std. dev.         3.2115     3.1713
+  weight sum           100        100
+  precision          1.125      1.125
+
+VERB NOUN
+  mean                1.17       1.55
+  std. dev.          1.114     1.2913
+  weight sum           100        100
+  precision              1          1
+
+VERB PRON
+  mean                0.69       1.13
+  std. dev.         0.7962     1.0923
+  weight sum           100        100
+  precision              1          1
+
+VERB PROPN
+  mean                0.07        0.1
+  std. dev.         0.2917     0.3317
+  weight sum           100        100
+  precision              1          1
+
+VERB PUNCT
+  mean               2.364      3.228
+  std. dev.         1.5596     2.1779
+  weight sum           100        100
+  precision            1.2        1.2
+
+VERB SCONJ
+  mean                1.59       1.25
+  std. dev.         1.4078      1.244
+  weight sum           100        100
+  precision              1          1
+
+VERB VERB
+  mean                3.59        3.2
+  std. dev.          2.417     2.4125
+  weight sum           100        100
+  precision              1          1
+
+VERB X
+  mean                0.02       0.04
+  std. dev.         0.1667      0.196
+  weight sum           100        100
+  precision              1          1
+
+X ADJ
+  mean                0.02          0
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+X AUX
+  mean                0.01       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+X NOUN
+  mean                0.06        0.1
+  std. dev.         0.2375        0.3
+  weight sum           100        100
+  precision              1          1
+
+X PRON
+  mean                0.01          0
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+X PROPN
+  mean                0.02       0.02
+  std. dev.          0.199     0.1667
+  weight sum           100        100
+  precision              1          1
+
+X PUNCT
+  mean                0.03       0.01
+  std. dev.         0.1706     0.1667
+  weight sum           100        100
+  precision              1          1
+
+X X
+  mean                0.02          0
+  std. dev.         0.3333     0.3333
+  weight sum           100        100
+  precision              2          2
+
+ADJ NUM
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+AUX NUM
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+AUX X
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+CCONJ NUM
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+INTJ PUNCT
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+NUM DET
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+NUM PRON
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+NUM SCONJ
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+PRON NUM
+  mean                   0       0.02
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+PUNCT INTJ
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+SCONJ AUX
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+SCONJ NUM
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+SCONJ PROPN
+  mean                   0       0.03
+  std. dev.         0.1667     0.2216
+  weight sum           100        100
+  precision              1          1
+
+SCONJ PUNCT
+  mean                   0       0.06
+  std. dev.         0.1667     0.2764
+  weight sum           100        100
+  precision              1          1
+
+SYM CCONJ
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+VERB NUM
+  mean                   0       0.07
+  std. dev.         0.1667     0.2917
+  weight sum           100        100
+  precision              1          1
+
+X CCONJ
+  mean                   0       0.01
+  std. dev.         0.1667     0.1667
+  weight sum           100        100
+  precision              1          1
+
+X VERB
+  mean                   0       0.03
+  std. dev.         0.1667     0.1706
+  weight sum           100        100
+  precision              1          1
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          31               77.5    %
+Incorrectly Classified Instances         9               22.5    %
+Kappa statistic                          0.5522
+Mean absolute error                      0.2016
+Root mean squared error                  0.4254
+Relative absolute error                 40.2893 %
+Root relative squared error             85.0255 %
+Total Number of Instances               40
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.842    0.286    0.727      0.842    0.780      0.558    0.917     0.926     apprenants
+                 0.714    0.158    0.833      0.714    0.769      0.558    0.917     0.928     natifs
+Weighted Avg.    0.775    0.219    0.783      0.775    0.775      0.558    0.917     0.927
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 16  3 |  a = apprenants
+  6 15 |  b = natifs
+
+

@@ -1,0 +1,93 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     corpus_total_ngram-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.NGramTokenizer -max 2 -min 2 -delimiters " \r\n\t.,;:\'\"()?!"
+Instances:    200
+Attributes:   189
+              [list of attributes omitted]
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+VERB DET <= 5
+|   ADP NOUN <= 8
+|   |   AUX DET <= 1: natifs (3.0)
+|   |   AUX DET > 1: apprenants (2.0)
+|   ADP NOUN > 8: natifs (23.0)
+VERB DET > 5
+|   VERB ADV <= 7
+|   |   PUNCT PRON <= 9
+|   |   |   SCONJ ADP <= 0
+|   |   |   |   DET NUM <= 0
+|   |   |   |   |   ADP PRON <= 2
+|   |   |   |   |   |   NOUN DET <= 4
+|   |   |   |   |   |   |   DET ADP <= 0
+|   |   |   |   |   |   |   |   NOUN SCONJ <= 1
+|   |   |   |   |   |   |   |   |   VERB AUX <= 1
+|   |   |   |   |   |   |   |   |   |   ADJ PROPN <= 0: apprenants (49.0/1.0)
+|   |   |   |   |   |   |   |   |   |   ADJ PROPN > 0
+|   |   |   |   |   |   |   |   |   |   |   ADP AUX <= 0: apprenants (2.0)
+|   |   |   |   |   |   |   |   |   |   |   ADP AUX > 0: natifs (2.0)
+|   |   |   |   |   |   |   |   |   VERB AUX > 1: natifs (3.0/1.0)
+|   |   |   |   |   |   |   |   NOUN SCONJ > 1: natifs (3.0/1.0)
+|   |   |   |   |   |   |   DET ADP > 0: natifs (4.0/1.0)
+|   |   |   |   |   |   NOUN DET > 4: natifs (6.0/1.0)
+|   |   |   |   |   ADP PRON > 2
+|   |   |   |   |   |   ADJ PUNCT <= 9
+|   |   |   |   |   |   |   NUM PUNCT <= 0
+|   |   |   |   |   |   |   |   SCONJ DET <= 4
+|   |   |   |   |   |   |   |   |   NOUN ADP <= 8: apprenants (2.0)
+|   |   |   |   |   |   |   |   |   NOUN ADP > 8
+|   |   |   |   |   |   |   |   |   |   CCONJ DET <= 4: natifs (27.0/1.0)
+|   |   |   |   |   |   |   |   |   |   CCONJ DET > 4
+|   |   |   |   |   |   |   |   |   |   |   NOUN PROPN <= 1: natifs (3.0)
+|   |   |   |   |   |   |   |   |   |   |   NOUN PROPN > 1: apprenants (2.0)
+|   |   |   |   |   |   |   |   SCONJ DET > 4: apprenants (2.0)
+|   |   |   |   |   |   |   NUM PUNCT > 0: apprenants (2.0)
+|   |   |   |   |   |   ADJ PUNCT > 9: apprenants (4.0)
+|   |   |   |   DET NUM > 0: apprenants (8.0)
+|   |   |   SCONJ ADP > 0
+|   |   |   |   PROPN PROPN <= 1: natifs (14.0)
+|   |   |   |   PROPN PROPN > 1: apprenants (2.0)
+|   |   PUNCT PRON > 9: apprenants (20.0)
+|   VERB ADV > 7: natifs (17.0/1.0)
+
+Number of Leaves  : 	22
+
+Size of the tree : 	43
+
+
+Time taken to build model: 0.09 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          26               65      %
+Incorrectly Classified Instances        14               35      %
+Kappa statistic                          0.2839
+Mean absolute error                      0.3692
+Root mean squared error                  0.5711
+Relative absolute error                 73.789  %
+Root relative squared error            114.1431 %
+Total Number of Instances               40
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.421    0.143    0.727      0.421    0.533      0.311    0.581     0.578     apprenants
+                 0.857    0.579    0.621      0.857    0.720      0.311    0.581     0.560     natifs
+Weighted Avg.    0.650    0.372    0.671      0.650    0.631      0.311    0.581     0.568
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+  8 11 |  a = apprenants
+  3 18 |  b = natifs
+
+
