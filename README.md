@@ -2,10 +2,10 @@
 - Ce projet vise à identifier automatiquement le statut d'un auteur (locuteur natif ou apprenant de FLE) à partir de caractéristiques syntaxiques (étiquettes POS).
 ## 1. Préparation
 ```
-git clone
+git clone git@github.com:Shiyi-YAO/trat_stat_projet.git
 ```
 ```
-cd 
+cd trat_stat_projet
 ```
 - Nous utilisons un environnement virtuel pour éviter les conflits de versions. Une fois l'environnement activé, installez les outils nécessaires.
 ```
@@ -45,4 +45,4 @@ python3 scripts/vectorisation_ngram.py ../data/corpus/ data/arff/total_pos.arff
 ```
 
 
-- Ouvrez les fichiers .arff générés dans Weka, choisissez l'algorithme J48 et lancez le test !
+- Ouvrez les fichiers .arff générés dans Weka, choisissez l'algorithme et lancez le test !
